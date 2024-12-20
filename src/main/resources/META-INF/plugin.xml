@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.krzyshio.idesurfers</id>
     <name>IDE Surfers</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <vendor email="krzyszgra@gmail.com">Krzyshio</vendor>
 
     <description>
