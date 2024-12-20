@@ -1,0 +1,19 @@
+<idea-plugin>
+    <id>com.krzyshio.idesurfers</id>
+    <name>IDE Surfers</name>
+    <version>1.0.0</version>
+    <vendor email="krzyszgra@gmail.com">Krzyshio</vendor>
+
+    <description>
+        IDE Surfers plugin - displays Subway Surfers videos in a tool window within the IDE.
+    </description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="IDE Surfers"
+                    anchor="right"
+                    factoryClass="com.krzyshio.ideasurfers.MyToolWindowFactory"
+                    canCloseContent="false"/>
+    </extensions>
+</idea-plugin>
