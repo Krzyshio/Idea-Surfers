@@ -13,6 +13,7 @@
     <extensions defaultExtensionNs="com.intellij">
         <toolWindow id="IDE Surfers"
                     anchor="right"
+                    icon="META-INF/subwaysurf-svgrepo-com.svg"
                     factoryClass="com.krzyshio.ideasurfers.MyToolWindowFactory"
                     canCloseContent="false"/>
     </extensions>
